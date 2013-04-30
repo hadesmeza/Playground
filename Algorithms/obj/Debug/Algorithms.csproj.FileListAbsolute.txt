@@ -1,0 +1,4 @@
+C:\Users\Ing.hades\Projects\Playground\Algorithms\bin\Debug\Algorithms.dll
+C:\Users\Ing.hades\Projects\Playground\Algorithms\bin\Debug\Algorithms.pdb
+C:\Users\Ing.hades\Projects\Playground\Algorithms\obj\Debug\Algorithms.dll
+C:\Users\Ing.hades\Projects\Playground\Algorithms\obj\Debug\Algorithms.pdb

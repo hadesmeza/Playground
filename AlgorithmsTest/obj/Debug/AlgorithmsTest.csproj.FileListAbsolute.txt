@@ -1,0 +1,7 @@
+C:\Users\Ing.hades\Projects\Playground\AlgorithmsTest\bin\Debug\AlgorithmsTest.dll
+C:\Users\Ing.hades\Projects\Playground\AlgorithmsTest\bin\Debug\AlgorithmsTest.pdb
+C:\Users\Ing.hades\Projects\Playground\AlgorithmsTest\bin\Debug\Algorithms.dll
+C:\Users\Ing.hades\Projects\Playground\AlgorithmsTest\bin\Debug\Algorithms.pdb
+C:\Users\Ing.hades\Projects\Playground\AlgorithmsTest\obj\Debug\AlgorithmsTest.csprojResolveAssemblyReference.cache
+C:\Users\Ing.hades\Projects\Playground\AlgorithmsTest\obj\Debug\AlgorithmsTest.dll
+C:\Users\Ing.hades\Projects\Playground\AlgorithmsTest\obj\Debug\AlgorithmsTest.pdb
