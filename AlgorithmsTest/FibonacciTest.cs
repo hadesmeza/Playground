@@ -10,21 +10,16 @@ namespace AlgorithmsTest
         [TestMethod]
         public void TestFibonacci()
         {
-            var fb = new Fibonacci(2);
-            Assert.IsTrue(fb.Series[0] == 0);
-            Assert.IsTrue(fb.Series[1] == 1);
-            Assert.IsTrue(fb.Series[2] == 1);
+         
+            Assert.IsTrue(Fibonacci.GetFibonacci(0) == 0);
+            Assert.IsTrue(Fibonacci.GetFibonacci(1) == 1);
+            Assert.IsTrue(Fibonacci.GetFibonacci(2) == 1);
+            Assert.IsTrue(Fibonacci.GetFibonacci(3) == 2);
+            Assert.IsTrue(Fibonacci.GetFibonacci(4) == 3);
+            Assert.IsTrue(Fibonacci.GetFibonacci(5) == 5);
+            Assert.IsTrue(Fibonacci.GetFibonacci(6) == 8);
 
-            var fb2 = new Fibonacci(6);
-            Assert.IsTrue(fb2.Series[0] == 0);
-            Assert.IsTrue(fb2.Series[1] == 1);
-            Assert.IsTrue(fb2.Series[2] == 1);
-            Assert.IsTrue(fb2.Series[3] == 2);
-            Assert.IsTrue(fb2.Series[4] == 3);
-            Assert.IsTrue(fb2.Series[5] == 5);
-            Assert.IsTrue(fb2.Series[6] == 8);
-            var fb3 = new Fibonacci(14);
-            Assert.IsTrue(fb3.Series[14] == 377);
+            Assert.IsTrue(Fibonacci.GetFibonacci(14) == 377);
 
         }
     }

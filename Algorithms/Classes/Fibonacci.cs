@@ -9,30 +9,24 @@ namespace Algorithms.Classes
 {
     public class Fibonacci
     {
-        public static Dictionary<int, int> Cache = new Dictionary<int, int> {{0, 0}, {1, 1}};
 
-        public List<int> Series { get; private set; }
 
-        public Fibonacci(int number)
+
+        public static int GetFibonacci(int number)
         {
-            Series = new List<int>();
-            for (var i = 0; i <= number; i++)
-            {
-                Series.Add(Compute(i));
-            }
-        }
+            int prev = 0;
+            int current = 1;
 
-        private int Compute(int number)
-        {
-            if (number == 0 || number == 1) return Cache[number];
-            if (Cache.ContainsKey(number))
+
+            for (var i = 0; i < number; i++)
             {
-                return Cache[number];
+                var temp =current;
+                current = prev + current;
+                prev = temp;
+
+                
             }
-            
-            var val = Cache[number - 1] + Cache[number - 2];
-            Cache.Add(number, val);
-            return val;
+            return prev;
         }
 
     }
